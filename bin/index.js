@@ -20,7 +20,12 @@ const addTasks = () => {
       console.log(chalk.whiteBright.bgBlue("Task(s) created successfully!"));
       return rl.close();
     }
-    fs.appendFile('./notes/oneNote.txt', input + "-U,", (err) => {
+    if (input.includes(",")) {
+      input = input.split(",").map((task) => task + "-U").join(",");
+    } else {
+      input += "-U,"
+    }
+    fs.appendFile('./notes/oneNote.txt', input, (err) => {
       if (err) console.error(chalk.redBright.bgRed(err));
     })
     addTasks();
