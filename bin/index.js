@@ -4,7 +4,14 @@ import chalk from 'chalk';
 import boxen from 'boxen';
 import fs from 'fs/promises';
 import readline from 'readline';
+import sqlite3 from "sqlite3";
 
+const db = new sqlite3.Database('notes/oneNote.db', (err) => {
+  if (err) {
+    console.error(err.message);
+    return null;
+  };
+});
 const flags = { 'a': 'add', 'd': 'delete', 'm': 'mark', 'u': 'unmark', 'r': 'read', 'w': 'update' }
 
 console.log('Welcome to', chalk.blue.bold('Task Tracker CLI'));
