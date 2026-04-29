@@ -1,6 +1,7 @@
 name: PR Description Check
 
 on:
+  workflow_dispatch:
   pull_request:
     types: 
       - opened
