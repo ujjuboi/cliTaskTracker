@@ -1,2 +1,4 @@
 notes/oneNote.txt
 notes/oneNote.db
+node_modules/
+package-lock.json
