@@ -6,9 +6,9 @@ Task Tracker is a project used to track and manage your tasks. In this task, you
 
 This project will help you practice your programming skills, including:
 
-* Working with the filesystem
-* Handling user inputs
-* Building a simple CLI application
+- Working with the filesystem
+- Handling user inputs
+- Building a simple CLI application
 
 ---
 
@@ -18,15 +18,15 @@ The application should run from the command line, accept user actions and inputs
 
 Users should be able to:
 
-* Add tasks
-* Update tasks
-* Delete tasks
-* Mark a task as **in progress**
-* Mark a task as **done**
-* List all tasks
-* List all completed tasks
-* List all pending tasks
-* List all in-progress tasks
+- Add tasks
+- Update tasks
+- Delete tasks
+- Mark a task as **in progress**
+- Mark a task as **done**
+- List all tasks
+- List all completed tasks
+- List all pending tasks
+- List all in-progress tasks
 
 ---
 
@@ -34,13 +34,13 @@ Users should be able to:
 
 Use the following constraints while implementing the project:
 
-* You can use any programming language
-* Use positional arguments in the command line
-* Store tasks in a JSON file in the current directory
-* Create the JSON file automatically if it does not exist
-* Use the native filesystem module of your language
-* Do not use external libraries or frameworks
-* Handle errors and edge cases gracefully
+- You can use any programming language
+- Use positional arguments in the command line
+- Store tasks in a JSON file in the current directory
+- Create the JSON file automatically if it does not exist
+- Use the native filesystem module of your language
+- Do not use external libraries or frameworks
+- Handle errors and edge cases gracefully
 
 ---
 
@@ -96,17 +96,17 @@ Make sure these fields are added when a task is created and updated whenever the
 
 Choose a language you are comfortable with, such as:
 
-* Python
-* JavaScript
-* Java
-* Go
-* C#
+- Python
+- JavaScript
+- Java
+- Go
+- C#
 
 Install a code editor or IDE such as:
 
-* VSCode
-* PyCharm
-* IntelliJ IDEA
+- VSCode
+- PyCharm
+- IntelliJ IDEA
 
 ---
 
@@ -142,12 +142,12 @@ Build the project step by step:
 
 Test every feature carefully:
 
-* Verify commands work correctly
-* Check JSON data is stored properly
-* Test invalid IDs
-* Test missing arguments
-* Test empty descriptions
-* Ensure timestamps update correctly
+- Verify commands work correctly
+- Check JSON data is stored properly
+- Test invalid IDs
+- Test missing arguments
+- Test empty descriptions
+- Ensure timestamps update correctly
 
 ---
 
@@ -155,11 +155,11 @@ Test every feature carefully:
 
 Before completion:
 
-* Ensure all features work
-* Refactor messy code
-* Add comments where needed
-* Improve error messages
-* Write a proper `README.md` file
+- Ensure all features work
+- Refactor messy code
+- Add comments where needed
+- Improve error messages
+- Write a proper `README.md` file
 
 ---
 
@@ -183,13 +183,13 @@ Before completion:
 
 By completing this project, you will improve your knowledge of:
 
-* Command line applications
-* File handling
-* JSON storage
-* Input validation
-* Error handling
-* CRUD operations
-* Clean code structure
+- Command line applications
+- File handling
+- JSON storage
+- Input validation
+- Error handling
+- CRUD operations
+- Clean code structure
 
 ---
 
@@ -197,14 +197,14 @@ By completing this project, you will improve your knowledge of:
 
 Once completed, you can extend the project with:
 
-* Due dates
-* Priority levels
-* Search tasks
-* Categories/tags
-* Colored terminal output
-* Export to CSV
-* SQLite database storage
-* Interactive CLI menus
+- Due dates
+- Priority levels
+- Search tasks
+- Categories/tags
+- Colored terminal output
+- Export to CSV
+- SQLite database storage
+- Interactive CLI menus
 
 ---
 
