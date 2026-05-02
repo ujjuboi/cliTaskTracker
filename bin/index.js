@@ -5,6 +5,7 @@ import boxen from "boxen";
 import fs from "fs/promises";
 import readline from "readline";
 import sqlite3 from "sqlite3";
+import createTaskTable from "./schema/task.js";
 
 const db = new sqlite3.Database("notes/oneNote.db", (err) => {
   if (err) {
