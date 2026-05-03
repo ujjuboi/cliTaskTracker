@@ -1,3 +1,4 @@
-package-lock.json
+bin/notes/
 node_modules/
-notes/oneNote.txt
+package-lock.json
+.vscode/
